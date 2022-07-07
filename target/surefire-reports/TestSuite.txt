@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.098 s <<< FAILURE! - in TestSuite
+runScenario(runner.MyRunner)  Time elapsed: 5.033 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Click on the Shopping cartButton which is on Homepage' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Click on the Shopping cartButton which is on Homepage")
+public void click_on_the_shopping_cart_button_which_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Verify user is able to navigate shopping Cart on ShoppingCart Page.")
+public void verify_user_is_able_to_navigate_shopping_cart_on_shopping_cart_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
